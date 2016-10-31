@@ -1,0 +1,373 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "log4net/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.Hadoop.Avro/1.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Hadoop.Avro.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Hadoop.Avro.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RdKafka/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "RdKafka.Internal.librdkafka": "0.9.1"
+        },
+        "compile": {
+          "lib/net451/RdKafka.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RdKafka.dll": {}
+        }
+      },
+      "RdKafka.Internal.librdkafka/0.9.1": {
+        "type": "package"
+      },
+      "System.Net.Http/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "log4net/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.Hadoop.Avro/1.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Hadoop.Avro.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Hadoop.Avro.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RdKafka/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "RdKafka.Internal.librdkafka": "0.9.1"
+        },
+        "compile": {
+          "lib/net451/RdKafka.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RdKafka.dll": {}
+        }
+      },
+      "RdKafka.Internal.librdkafka/0.9.1": {
+        "type": "package",
+        "native": {
+          "runtimes/win7-x86/native/librdkafka.dll": {},
+          "runtimes/win7-x86/native/zlib.dll": {}
+        }
+      },
+      "System.Net.Http/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "log4net/2.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.Hadoop.Avro/1.5.6": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "compile": {
+          "lib/net45/Microsoft.Hadoop.Avro.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.Hadoop.Avro.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RdKafka/0.9.1": {
+        "type": "package",
+        "dependencies": {
+          "RdKafka.Internal.librdkafka": "0.9.1"
+        },
+        "compile": {
+          "lib/net451/RdKafka.dll": {}
+        },
+        "runtime": {
+          "lib/net451/RdKafka.dll": {}
+        }
+      },
+      "RdKafka.Internal.librdkafka/0.9.1": {
+        "type": "package",
+        "native": {
+          "runtimes/win7-x64/native/librdkafka.dll": {},
+          "runtimes/win7-x64/native/zlib.dll": {}
+        }
+      },
+      "System.Net.Http/4.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "log4net/2.0.5": {
+      "type": "package",
+      "sha512": "AEqPZz+v+OikfnR2SqRVdQPnSaLq5y9Iz1CfRQZ9kTKPYCXHG6zYmDHb7wJotICpDLMr/JqokyjiqKAjUKp0ng==",
+      "files": [
+        "lib/net10-full/log4net.dll",
+        "lib/net10-full/log4net.xml",
+        "lib/net11-full/log4net.dll",
+        "lib/net11-full/log4net.xml",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "log4net.2.0.5.nupkg",
+        "log4net.2.0.5.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "Microsoft.Hadoop.Avro/1.5.6": {
+      "type": "package",
+      "sha512": "7NCfKgHDG/qVfwqPQgkovEkA5oCriCLTv4TfdkJRfodme6KbyusTdJ4jb1xSl325NuRYRvoR6/CCu7b4kk6Fcg==",
+      "files": [
+        "lib/net45/Microsoft.Hadoop.Avro.dll",
+        "lib/net45/Microsoft.Hadoop.Avro.xml",
+        "Microsoft.Hadoop.Avro.1.5.6.nupkg",
+        "Microsoft.Hadoop.Avro.1.5.6.nupkg.sha512",
+        "Microsoft.Hadoop.Avro.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "files": [
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "Newtonsoft.Json.9.0.1.nupkg",
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "RdKafka/0.9.1": {
+      "type": "package",
+      "sha512": "ygms0MV17ZY+QGxUXbpEoPnt3mw69jqxZBlBQEPuiLZf3+MApHpfkfNgOVjZoNkxgR5edgDW7irSYB23lQwUmg==",
+      "files": [
+        "lib/net451/RdKafka.dll",
+        "lib/netstandard1.3/RdKafka.dll",
+        "RdKafka.0.9.1.nupkg",
+        "RdKafka.0.9.1.nupkg.sha512",
+        "RdKafka.nuspec"
+      ]
+    },
+    "RdKafka.Internal.librdkafka/0.9.1": {
+      "type": "package",
+      "sha512": "mPEypi9LPHNAfkZ+1rjQKba0Lf93GGyLg++UJCvOq7C/cWXtJI5FbDFiLmmEA0IRUDCS/AwP/STxLezFkULjYQ==",
+      "files": [
+        "build/RdKafka.Internal.librdkafka.props",
+        "RdKafka.Internal.librdkafka.0.9.1.nupkg",
+        "RdKafka.Internal.librdkafka.0.9.1.nupkg.sha512",
+        "RdKafka.Internal.librdkafka.nuspec",
+        "runtimes/debian-x64/native/librdkafka.so",
+        "runtimes/osx/native/librdkafka.dylib",
+        "runtimes/rhel-x64/native/librdkafka.so",
+        "runtimes/win7-x64/native/librdkafka.dll",
+        "runtimes/win7-x64/native/zlib.dll",
+        "runtimes/win7-x86/native/librdkafka.dll",
+        "runtimes/win7-x86/native/zlib.dll"
+      ]
+    },
+    "System.Net.Http/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "ULq9g3SOPVuupt+Y3U+A37coXzdNisB1neFCSKzBwo182u0RDddKJF8I5+HfyXqK6OhJPgeoAwWXrbiUXuRDsg==",
+      "files": [
+        "dotnet_library_license.txt",
+        "lib/monoandroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Net.Http.dll",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/Xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/monoandroid10/_._",
+        "ref/monotouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/de/System.Net.Http.xml",
+        "ref/net46/es/System.Net.Http.xml",
+        "ref/net46/fr/System.Net.Http.xml",
+        "ref/net46/it/System.Net.Http.xml",
+        "ref/net46/ja/System.Net.Http.xml",
+        "ref/net46/ko/System.Net.Http.xml",
+        "ref/net46/ru/System.Net.Http.xml",
+        "ref/net46/System.Net.Http.dll",
+        "ref/net46/System.Net.Http.xml",
+        "ref/net46/zh-hans/System.Net.Http.xml",
+        "ref/net46/zh-hant/System.Net.Http.xml",
+        "ref/netcore50/de/System.Net.Http.xml",
+        "ref/netcore50/es/System.Net.Http.xml",
+        "ref/netcore50/fr/System.Net.Http.xml",
+        "ref/netcore50/it/System.Net.Http.xml",
+        "ref/netcore50/ja/System.Net.Http.xml",
+        "ref/netcore50/ko/System.Net.Http.xml",
+        "ref/netcore50/ru/System.Net.Http.xml",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/netcore50/System.Net.Http.xml",
+        "ref/netcore50/zh-hans/System.Net.Http.xml",
+        "ref/netcore50/zh-hant/System.Net.Http.xml",
+        "ref/netstandard1.1/de/System.Net.Http.xml",
+        "ref/netstandard1.1/es/System.Net.Http.xml",
+        "ref/netstandard1.1/fr/System.Net.Http.xml",
+        "ref/netstandard1.1/it/System.Net.Http.xml",
+        "ref/netstandard1.1/ja/System.Net.Http.xml",
+        "ref/netstandard1.1/ko/System.Net.Http.xml",
+        "ref/netstandard1.1/ru/System.Net.Http.xml",
+        "ref/netstandard1.1/System.Net.Http.dll",
+        "ref/netstandard1.1/System.Net.Http.xml",
+        "ref/netstandard1.1/zh-hans/System.Net.Http.xml",
+        "ref/netstandard1.1/zh-hant/System.Net.Http.xml",
+        "ref/netstandard1.3/de/System.Net.Http.xml",
+        "ref/netstandard1.3/es/System.Net.Http.xml",
+        "ref/netstandard1.3/fr/System.Net.Http.xml",
+        "ref/netstandard1.3/it/System.Net.Http.xml",
+        "ref/netstandard1.3/ja/System.Net.Http.xml",
+        "ref/netstandard1.3/ko/System.Net.Http.xml",
+        "ref/netstandard1.3/ru/System.Net.Http.xml",
+        "ref/netstandard1.3/System.Net.Http.dll",
+        "ref/netstandard1.3/System.Net.Http.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.Http.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.Http.xml",
+        "ref/portable-net45+win8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/Xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll",
+        "runtimes/win/lib/net46/System.Net.Http.dll",
+        "runtimes/win/lib/netcore50/System.Net.Http.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
+        "System.Net.Http.4.1.0.nupkg",
+        "System.Net.Http.4.1.0.nupkg.sha512",
+        "System.Net.Http.nuspec",
+        "ThirdPartyNotices.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Newtonsoft.Json >= 9.0.1",
+      "RdKafka >= 0.9.1"
+    ],
+    ".NETFramework,Version=v4.5.1": [
+      "log4net >= 2.0.5",
+      "Microsoft.Hadoop.Avro >= 1.5.6",
+      "System.Net.Http >= 4.1.0"
+    ]
+  }
+}
